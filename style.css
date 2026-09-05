@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Pixelify Sans";
+}
+
+*::scroll-bar {}
+
+body {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--text);
+  background: black;
+}
+
+:root {
+  --text: #f4f4f4;
+  --primary: #ff4ea4;
+  --secondary: #37f0ed;
+}
+
+/* 1. Modern Standard (Firefox) */
+html {
+  /* Thumb (Cyan) and Track (Dark gray/black) */
+  scrollbar-color: var(--secondary) #111;
+  scrollbar-width: auto; /* Standard chunkier size fits the pixel aesthetic better */
+}
+
+/* 2. WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 16px;               /* Chunkier, blocky width */
+  height: 16px;              /* Chunkier height for horizontal scrolling */
+}
+
+/* The groove/slot the scrollbar sits in */
+::-webkit-scrollbar-track {
+  background: #111;          /* Slightly off-black so you can see the track slot */
+  border-left: 2px solid #222; /* Gives it an embedded arcade cabinet feel */
+}
+
+/* The solid neon block */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary); /* Solid Neon Cyan block */
+  border-radius: 0px;           /* Strictly 0px for sharp, pixelated corners */
+}
+
+/* Hover State */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);   /* Instantly snaps to Solid Neon Pink */
+}
+
+.title {
+  margin: 0;
+}
+
+/* Only functional layout and ANSI color maps */
+#output {
+  white-space: pre-wrap;
+}
+
+#input-container {
+  align-items: center;
+}
+
+#user-input {
+  color: var(--text);
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+/* Strictly ANSI Color Mappings */
+.bold { font-weight: bold; }
+.green { color: green; }
+.red { color: red; }
+.blue { color: blue; }
+.yellow { color: #b58900; }
+.cyan { color: cyan; }
+.magenta { color: magenta; }
+.primary { color: var(--primary); }
+.secondary { color: var(--secondary); }
+
+/* more stuff */
