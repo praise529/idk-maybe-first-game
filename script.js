@@ -32,12 +32,12 @@ function runQuiz() {
   switch (currentStep) {
     case 0:
       print("hi and welcome to the boring quiz :|", "bold");
-      print("name ");
+      print("insert random stuff here: ");
       ask();
       break;
       
     case 1:
-      print(`hi there ${userName}<br>`);
+      print(`${userName} hehe<br>`);
       print("all you have to do is pass the quiz or fail. not my fault if you fail");
       print("very simple but good luck doing it i guess<br>");
       print("ok so the first easy boring question is...");
