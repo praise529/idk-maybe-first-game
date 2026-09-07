@@ -148,6 +148,7 @@ userInput.addEventListener("keydown", function(e) {
     else if (currentStep === 2) {
       if (parseInt(cleanVal) === (n1 + n2)) {
         print("correct", "green");
+        print("wait did you cheat..? its basically impossibl- i mean boring", "cyan")
         print("ok you passed the quiz (jk lol its not over yet)", "green");
         currentStep = 3;
         runQuiz();
