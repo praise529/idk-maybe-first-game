@@ -76,7 +76,7 @@ html {
 
 /* Strictly ANSI Color Mappings */
 .bold { font-weight: bold; }
-.green { color: green; }
+.green { color: #00DF73; }
 .red { color: red; }
 .blue { color: blue; }
 .yellow { color: #b58900; }
