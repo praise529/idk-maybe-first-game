@@ -154,7 +154,7 @@ userInput.addEventListener("keydown", function(e) {
         runQuiz();
       } else {
         print("incorrect", "red");
-        print(`the answer is actually <span class='bold'>{n1 + n2}</span> lol`, "red");
+        print(`the answer is actually <span class='bold'>${n1 + n2}</span> lol`, "red");
         print("you failed.", "red");
         gameOver();
       }
