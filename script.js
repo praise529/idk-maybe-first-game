@@ -41,7 +41,7 @@ function runQuiz() {
       print("all you have to do is pass the quiz or fail. not my fault if you fail");
       print("very simple but good luck doing it i guess<br>");
       print("ok so the first easy boring question is...");
-      print("what is 1 + 1 ");
+      print("<span class="primary">what is 1 + 1 </span>");
       ask();
       break;
       
@@ -49,38 +49,38 @@ function runQuiz() {
       print("<br>ok next boring question...");
       n1 = Math.floor(Math.random() * 100000000000);
       n2 = Math.floor(Math.random() * 100000000000);
-      print(`what is ${n1} + ${n2} (very easy and boring, right?) `);
+      print(`<span class="primary">what is ${n1} + ${n2} (very easy and boring, right?) </span>`);
       ask();
       break;
       
     case 3:
       print("<br>ok next extremely boring question...");
-      print("this sentence is false (t/f)");
+      print("<span class="primary">this sentence is false (t/f)</span>");
       ask();
       break;
       
     case 4:
       print("<br>ok next extremly extremly boring question...");
-      print(".-- .... -.-- / .. ... / -.... / .- ..-. .-. .- .. -.. / --- ..-. / --... ..--.. ");
+      print("<span class="primary">.-- .... -.-- / .. ... / -.... / .- ..-. .-. .- .. -.. / --- ..-. / --... ..--.. </span>");
       ask();
       break;
       
     case 5:
       print("next borign question!");
-      print("what is 2 + 2 ");
+      print("<span class="primary">what is 2 + 2 </span>");
       ask();
       break;
       
     case 6:
       print("<br>ok next boring-to-tears question...");
-      print("type 'anything' to continue ");
+      print("<span class="primary">type 'anything' to continue </span>");
       ask();
       break;
       
     case 7:
       print("ok next boring boring boring question...");
       print(`<span class="bold">https://youtube.com</span>`);
-      print("is this link a rickroll? (y/n) ");
+      print("<span class="primary">is this link a rickroll? (y/n) </span>");
       ask();
       break;
       
@@ -98,7 +98,7 @@ function runQuiz() {
       print("ok that wasnt a question, and it wasnt the last");
       print("hehe &gt;:)");
       print("anyways next booooooooooooooooring question...");
-      print("what is 6 × 7?");
+      print("<span class="primary">what is 6 × 7?</span>");
       ask();
       break;
       
