@@ -57,6 +57,7 @@ html {
 
 /* Only functional layout and ANSI color maps */
 #output {
+  user-select: none;
   white-space: pre-wrap;
 }
 
